@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP & MYSQL</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav">
+            <h2>lOGO</h2>
+            <div class="nav-part2">
+                <a href="index.html">Home</a>
+                <a href="">SignUp</a>
+                <a href="Login.html">Login</a>
+                <a href="user.html">User</a>
+            </div>
+        </div>
+        <div class="form-container">
+            <form action="connect.php" method="post">
+                <h2>Registration</h2>
+                <hr>
+                <div class="content">
+                    <div class="input-box">
+                        <label for="name">First Name</label>
+                        <input type="text" placeholder="Enter your first name" name="firstName" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name">Last Name</label>
+                        <input type="text" placeholder="Enter your last name" name="lastName" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name">Email</label>
+                        <input type="email" placeholder="Enter your email" name="email" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name">Phone Number</label>
+                        <input type="number" placeholder="Enter your mobile number" name="number" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="name">Password</label>
+                        <input type="password" placeholder="Enter a password" name="password" required>
+                    </div>
+                    <button type="submit">Submit</button>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

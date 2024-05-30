@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.nav {
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid #dadada;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.nav-part2 {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+.nav-part2 a {
+    text-decoration: none;
+    color: #38B9C2;
+    font-weight: 600;
+}
+
+.nav h2 {
+    font-size: 1.5vw;
+    font-weight: 700;
+    color: #38B9C2;
+}
+
+.nav-part2 a:hover {
+    color: #028391;
+}
+
+.form-container {
+    background-color: #38B9C2;
+    height: 70%;
+    width: 45%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 8vh;
+
+    
+}
+
+/* ==================== */
+.content {
+    height: calc(100% - 90px);
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+.nav-part2 {
+    display: flex;
+    gap: 4vw;
+    align-items: center;
+}
+.nav-part2 i {
+    color: #018673;
+    font-size: 1.4vw;
+}
+.nav-part2 i:hover {
+    color: #000;
+}
+
+.right {
+    height: 100%;
+    width: 55%;
+    padding: 5vw 4vw;
+}
+
+.right h2 {
+    font-size: 4.1vw;
+}
+
+.right span {
+    color: #38B9C2;
+}
+
+.right p {
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 1.5vw;
+    margin-bottom: 3vw;
+}
+
+.left img {
+    height: 100%;
+    width: 100%;
+}
+
+.right button{
+    font-size: 1.2vw;
+    padding: 1.1vw 2.1vw;
+    background-color: #38B9C2;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.right button:hover {
+    color: #4AEFDF;
+}
+
+.bottom-container {
+  background-color: #2A454E;
+  padding: 50px 0 20px;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-container a{
+  color: #4AEFDF;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+  align-items: center;
+
+
+}
+.bottom-container a:hover {
+    color: #FFFFFF;
+}
+
+.niche{
+  color: #EAF6F6;
+  font-size: 0.90rem;
+  padding: 20px 0px;
+  margin-left: 40%;
+}
+
+.bottom {
+    align-items: center;
+    justify-content: center;
+    margin-left: 38vw;
+
+}
